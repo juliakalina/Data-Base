@@ -3,7 +3,7 @@
 ### **Real estate agency «Find your place»**
 
 ### **STACK:** SQL, PostgreSQL
-
+----
 #### **Trigger 1:**
 When adding a new rental agreement with an extension, which contains the previous agreement, we check that the previous agreement was for the same client. If the client does not match, then there is an error and the insertion fails.
 

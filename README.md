@@ -1,17 +1,17 @@
 # **MEPhI course "Database"**
 
-###**Real estate agency «Find your place»**
+### **Real estate agency «Find your place»**
 
-###**STACK:**
+### **STACK:**
 SQL, PostgreSQL
 
-##**Trigger 1:**
+## **Trigger 1:**
 When adding a new rental agreement with an extension, which contains the previous agreement, we check that the previous agreement was for the same client. If the client does not match, then there is an error and the insertion fails.
 
-##**Trigger 2:**
+## **Trigger 2:**
 Upon receipt of payment for services from the client, outgoing payment documents (award) are issued to the manager and realtor in accordance with the assignment.
 
-##**Procedure 1:** Payment of rewards to the manager
+## **Procedure 1:** Payment of rewards to the manager
 The procedure is intended to determine the manager's remuneration. The procedure takes the manager’s id as an input parameter and calculates remuneration for him under those contracts for which it has not yet been paid. The payment is issued as a payment document. The amount of payments is determined by the formula as: 10% of the sales fee, 15% of the rental fee. Payments are not made for rent extensions.
 
 ##**Procedure 2:** Lease extension

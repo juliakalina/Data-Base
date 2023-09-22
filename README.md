@@ -25,3 +25,7 @@ Description of housing; party to the agreement; start date of the first contract
 The columns contain information: the number of lease agreements executed by the employee this month; the amount of remuneration for them; number of sales contracts; the amount for them. Information is displayed for each month (total 12 * 4 = 48 columns). The employee's name appears in a separate column.
 5. Obtain information for all regions in the following form:
 Region name, description, parent region, highest parent region in the hierarchy. You can use recursive functions.
+
+**ER diagram**
+![erd](https://github.com/juliakalina/Data-Base/assets/70514331/eaaa4411-d7e7-4f1f-ae03-39868f672738)
+

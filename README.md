@@ -9,7 +9,7 @@ When adding a new rental agreement with an extension, which contains the previou
 
 #### **Trigger 2:**
 Upon receipt of payment for services from the client, outgoing payment documents (award) are issued to the manager and realtor in accordance with the assignment.
-----
+
 ----
 
 #### **Procedure 1:** Payment of rewards to the manager
@@ -17,6 +17,7 @@ The procedure is intended to determine the manager's remuneration. The procedure
 
 #### **Procedure 2:** Lease extension
 The procedure is intended to extend an expiring lease agreement. The procedure takes as input the number of the main lease document and determines the expiration date of the lease, taking into account the fact that renewal agreements may have already been issued. If the end date of the last lease document is less than 5 days later, you must issue a new lease document for half a year. Otherwise, display a message about the impossibility of renewing the contract.
+
 ----
 
 #### **Requests**

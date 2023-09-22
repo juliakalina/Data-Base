@@ -10,6 +10,7 @@ When adding a new rental agreement with an extension, which contains the previou
 #### **Trigger 2:**
 Upon receipt of payment for services from the client, outgoing payment documents (award) are issued to the manager and realtor in accordance with the assignment.
 ----
+----
 
 #### **Procedure 1:** Payment of rewards to the manager
 The procedure is intended to determine the manager's remuneration. The procedure takes the manager’s id as an input parameter and calculates remuneration for him under those contracts for which it has not yet been paid. The payment is issued as a payment document. The amount of payments is determined by the formula as: 10% of the sales fee, 15% of the rental fee. Payments are not made for rent extensions.

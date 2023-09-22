@@ -1,4 +1,4 @@
-### **MEPhI course "Database"**
+# **MEPhI course "Database"**
 
 **Real estate agency «Find your place»**
 
